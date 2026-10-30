@@ -17,5 +17,5 @@
 <summary><sub>How this page works</sub></summary>
 <br>
 
-<sub>A GitHub Action reads my public contribution calendar every six hours and redraws these cards as SVG (light and dark), with fonts and animations inside the file. Nothing is hosted elsewhere. The banner flips to amber when I set <code>available: false</code> in <code>config.mjs</code>. Last run: 30 Oct 2026, 13:40 (São Paulo).</sub>
+<sub>A GitHub Action reads my public contribution calendar every six hours and redraws these cards as SVG (light and dark), with fonts and animations inside the file. Nothing is hosted elsewhere. The banner flips to amber when I set <code>available: false</code> in <code>config.mjs</code>. Last run: 30 Oct 2026, 13:42 (São Paulo).</sub>
 </details>
