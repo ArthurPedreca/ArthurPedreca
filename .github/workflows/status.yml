@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['config.mjs', 'scripts/**']
+    paths: ['config.mjs', 'scripts/**', '.github/workflows/**']
 
 permissions:
   contents: write
@@ -19,10 +19,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
       - run: node scripts/build.mjs
       - name: Commit if anything changed
         run: |
