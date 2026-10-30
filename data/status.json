@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-30T16:42:05.246Z",
+ "updated": "2026-10-30T18:08:42.009Z",
  "available": true,
- "note": "Available for new projects",
- "totalLastYear": 2746,
- "active90": 57,
- "contributions90": 349,
+ "note": "Taking new projects",
+ "totalLastYear": 2742,
+ "active90": 55,
+ "contributions90": 345,
  "days": [
   {
    "date": "2026-08-02",
@@ -300,11 +300,11 @@
   },
   {
    "date": "2026-10-14",
-   "count": 2
+   "count": 3
   },
   {
    "date": "2026-10-15",
-   "count": 1
+   "count": 0
   },
   {
    "date": "2026-10-16",
@@ -364,7 +364,7 @@
   },
   {
    "date": "2026-10-30",
-   "count": 4
+   "count": 0
   }
  ]
 }
