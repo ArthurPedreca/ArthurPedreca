@@ -13,10 +13,3 @@
   <a href="https://arthurpedreca.github.io/Portfolio/history/foxie.html">Foxie</a> &nbsp;·&nbsp;
   <a href="https://www.upwork.com/freelancers/~01f52910ffb0d32b70">Hire me on Upwork</a>
 </p>
-
-<details>
-<summary><sub>How this page works</sub></summary>
-<br>
-
-<sub>A GitHub Action reads my public contribution calendar every six hours and redraws these cards as SVG, with the fonts, pictures and motion inside each file. The portfolio reads the same data. Last run: 30 Oct 2026, 15:11 (São Paulo).</sub>
-</details>
