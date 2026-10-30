@@ -88,9 +88,10 @@ function session(s, now, cols) {
 
   cmd('cat now.txt');
   const key = Math.max(...config.now.map(([k]) => k.length)) + 3;
-  for (const [k, v] of config.now) {
+  config.now.forEach(([k, v], j) => {
+    if (j) rows.push({ space: 0.5 }); // a little air between projects
     wrap(v, cols - key).forEach((l, i) => out([(i ? '' : k).padEnd(key) + l, 'o']));
-  }
+  });
   gap();
 
   cmd('./contributions --weeks 52');
@@ -177,6 +178,7 @@ function draw(v, s, now) {
   const rows = session(s, now, cols);
   for (const r of rows) {
     if (r.gap) { y += v.gapLh; t += 0.25; continue; }
+    if (r.space) { y += v.lh * r.space; continue; }
     if (r.cmd || r.prompt) {
       const base = y + v.lh * 0.72;
       const promptX = M; const textX = M + 2 * cw;
