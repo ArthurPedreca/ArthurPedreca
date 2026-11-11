@@ -2,7 +2,7 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/terminal-narrow.svg">
   <source media="(max-width: 1100px)" srcset="assets/terminal-mid.svg">
-  <img src="assets/terminal.svg" width="100%" alt="A terminal. Arthur Pedreca: Full-stack developer in São Paulo. I lead development at Flexiestays, serviced apartments in Bournemouth, UK. 2,703 contributions in the last year.">
+  <img src="assets/terminal.svg" width="100%" alt="A terminal. Arthur Pedreca: Full-stack developer in São Paulo. I lead development at Flexiestays, serviced apartments in Bournemouth, UK. 2,704 contributions in the last year.">
 </picture>
 
 ### ~/work
