@@ -1,15 +1,11 @@
 {
- "updated": "2026-11-16T22:17:45.988Z",
+ "updated": "2026-11-17T08:06:13.193Z",
  "available": true,
  "note": "Taking new projects",
  "totalLastYear": 2666,
- "active90": 53,
- "contributions90": 335,
+ "active90": 52,
+ "contributions90": 334,
  "days": [
-  {
-   "date": "2026-08-19",
-   "count": 1
-  },
   {
    "date": "2026-08-20",
    "count": 4
@@ -364,6 +360,10 @@
   },
   {
    "date": "2026-11-16",
+   "count": 0
+  },
+  {
+   "date": "2026-11-17",
    "count": 0
   }
  ]
